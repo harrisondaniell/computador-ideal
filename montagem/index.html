@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Processadores</title>
+    <link rel="stylesheet" type="text/css" href="../styles/montagem.css">
+</head>
+
+<body>
+    <main class="table" id="customers_table">
+        <div id="menu"></div>
+        <script>
+            // Use JavaScript para carregar o menu na página
+            fetch('../menu/menu.html')
+              .then(response => response.text())
+              .then(html => {
+                document.getElementById('menu').innerHTML = html;
+              });
+          </script>
+        <section class="table__header">
+            <h1>Escolha suas peças <img src="images/552016-engrenages-vector-icon-gratuit-vectoriel-removebg-preview (1).png" alt=""></h1>
+            
+        </section>
+        <section class="table__body">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th> Componente</th>
+                        <th> Selecionados</th>
+                        <th> Preço</th>
+                        <th> Loja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Processador </td>
+                        <td><a href="../processadores/index.html"><p class="status">Escolher</p></a></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <strong></strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Placa Mãe </td>
+                        <td><a href="../placa-mãe/index.html"><p class="status">Escolher</p></a></td>
+
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Cooler</td>
+                        <td><p class="status">Adicionar</p> </td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Memória</td>
+                        <td><p class="status">Adicionar</p> </td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Placa de Vídeo</td>
+                        <td><p class="status">Adicionar</p> </td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Armazenamento</td>
+                        <td><p class="status">Adicionar</p> </td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Memória</td>
+                        <td><p class="status">Adicionar</p> </td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Fonte</td>
+                        <td><p class="status">Adicionar</p> </td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Gabinete</td>
+                        <td><p class="status">Adicionar</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><strong></strong></td>
+                        <td>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

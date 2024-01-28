@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/assistente.css">
+    
+    <title>Assistente</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+    <script>
+        // Use JavaScript para carregar o menu na página
+        fetch('../menu/menu.html')
+          .then(response => response.text())
+          .then(html => {
+            document.getElementById('menu').innerHTML = html;
+          });
+      </script>
+      
+    <div class="container">
+        <div class="sidebar">
+            <h3>Escolha de acordo com o seu uso</h3>
+            <div class="filter">
+                <h3>Categorias:</h3>
+                <div id="btns"></div>
+            </div>
+        </div>
+        <div class="contant">
+            <div class="header">
+                <p>Recomendações por categoria</p>
+            </div>
+            <div id="root"></div>
+        </div>
+    </div>
+    
+
+
+
+
+    <img src="" alt="">
+
+    <script src="../scripts/filter.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#menu {
+    /* background-color: #007bff; */
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+}

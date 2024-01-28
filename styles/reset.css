@@ -1,0 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* contabilizando a borda */
+    box-sizing: border-box;  
+    font-family: 'roboto'; 
+}

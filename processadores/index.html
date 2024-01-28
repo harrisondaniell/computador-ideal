@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Processadores</title>
+    <link rel="stylesheet" type="text/css" href="../styles/processador.css">
+</head>
+
+<body>
+    
+    <main class="table" id="customers_table">
+        <div id="menu"></div>
+        <script>
+            // Use JavaScript para carregar o menu na página
+            fetch('../menu/menu.html')
+              .then(response => response.text())
+              .then(html => {
+                document.getElementById('menu').innerHTML = html;
+              });
+          </script>
+        <section class="table__header">
+            <h1>Processadores</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Procurar processadores">
+                <img src="images/search.png" alt="">
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <!-- <th> Id <span class="icon-arrow">&UpArrow;</span></th> -->
+                        <th> Processador <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Frequência <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Núcleos <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Preço <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <a href="index.html"></a>
+                <tbody id="processadorBody">
+                    <!-- A tabela será preenchida dinamicamente pelo script.js -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <script type="module" src="./data/data.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
