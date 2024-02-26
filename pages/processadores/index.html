@@ -6,21 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Processadores</title>
-    <link rel="stylesheet" type="text/css" href="../styles/processador.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/processador.css">
+    <script src="../../scripts/menu.js" defer></script>
 </head>
 
 <body>
-    
+
     <main class="table" id="customers_table">
-        <div id="menu"></div>
-        <script>
-            // Use JavaScript para carregar o menu na página
-            fetch('../menu/menu.html')
-              .then(response => response.text())
-              .then(html => {
-                document.getElementById('menu').innerHTML = html;
-              });
-          </script>
+        <header id="header"></header>
         <section class="table__header">
             <h1>Processadores</h1>
             <div class="input-group">
@@ -46,7 +39,7 @@
             </table>
         </section>
     </main>
-    
+
     <script type="module" src="./data/data.js"></script>
     <script type="module" src="script.js"></script>
 </body>

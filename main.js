@@ -5,7 +5,6 @@ fetch('pages/menu/menu.html')
     div.innerHTML = html
     div.innerHTML = div.querySelector('header').innerHTML
     document.getElementById('header').innerHTML = div.innerHTML
-    div.querySelectorAll('a')
   })
 
   

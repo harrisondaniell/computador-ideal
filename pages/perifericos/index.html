@@ -4,21 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/perifericos.css">
+    <link rel="stylesheet" href="../../styles/perifericos.css">
+    <script src="../../scripts/menu.js" defer></script>
     <title>Periféricos</title>
 </head>
 
 <body>
-    <div id="menu"></div>
-    <script>
-        // Use JavaScript para carregar o menu na página
-        fetch('../menu/menu.html')
-          .then(response => response.text())
-          .then(html => {
-            document.getElementById('menu').innerHTML = html;
-          });
-      </script>
-      
+    <header id="header"></header>
     <div class="container">
         <div class="card">
             <div class="imgBx">

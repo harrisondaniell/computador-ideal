@@ -68,7 +68,7 @@ nav li a:hover {
     text-decoration: none;
 }
 
-#btn-link {
+.btn-link {
     text-decoration: none;
     color: var(--text-light);
 }

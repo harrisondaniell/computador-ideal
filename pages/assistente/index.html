@@ -4,21 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/assistente.css">
+    <link rel="stylesheet" href="../../styles/assistente.css">
+    <script src="../../scripts/menu.js" defer></script>
+    <script src="../../scripts/filter.js" defer></script>
 
     <title>Assistente</title>
 </head>
 
 <body>
-    <div id="menu"></div>
-    <script>
-        // Use JavaScript para carregar o menu na página
-        fetch('menu/menu.html')
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById('menu').innerHTML = html;
-            });
-    </script>
+    <header id="header"></header>
 
     <div class="container">
         <div class="sidebar">
@@ -36,13 +30,8 @@
         </div>
     </div>
 
-
-
-
-
     <img src="" alt="">
 
-    <script src="../scripts/filter.js"></script>
 </body>
 
 </html>
