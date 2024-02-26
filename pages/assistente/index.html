@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/assistente.css">
-    
+
     <title>Assistente</title>
 </head>
 
@@ -13,13 +13,13 @@
     <div id="menu"></div>
     <script>
         // Use JavaScript para carregar o menu na página
-        fetch('../menu/menu.html')
-          .then(response => response.text())
-          .then(html => {
-            document.getElementById('menu').innerHTML = html;
-          });
-      </script>
-      
+        fetch('menu/menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('menu').innerHTML = html;
+            });
+    </script>
+
     <div class="container">
         <div class="sidebar">
             <h3>Escolha de acordo com o seu uso</h3>
@@ -35,7 +35,7 @@
             <div id="root"></div>
         </div>
     </div>
-    
+
 
 
 

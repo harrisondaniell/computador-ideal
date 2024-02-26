@@ -6,27 +6,29 @@
     --action-color: #2997FF;
 }
 
-nav li a:hover, nav li div a{
+nav li a:hover,
+nav li div a {
     background-color: var(--action-color);
 
 }
 
-nav li div a{
+nav li div a {
     background-color: var(--action-color);
     width: 130px;
 
 }
 
- .dropdown-menu{
+.dropdown-menu {
     background-color: var(--action-color);
 }
 
-nav li a{
+nav li a {
     display: inline-block;
     justify-content: center;
     padding: 15px;
 }
-nav li a:hover{
+
+nav li a:hover {
     background-color: var(--action-color);
 }
 
@@ -39,7 +41,7 @@ nav li a:hover{
     position: sticky;
     top: 0;
     /* para sobrepor perante outros elementos */
-    z-index: 1; 
+    z-index: 1;
     padding: 12px 0;
 }
 
@@ -55,7 +57,7 @@ nav li a:hover{
 
 
 
-#header nav ul li  {
+#header nav ul li {
     /* fit contente tamanho minimo */
     min-width: fit-content;
     height: fit-content;
@@ -66,7 +68,7 @@ nav li a:hover{
     text-decoration: none;
 }
 
-#btn-link{
+#btn-link {
     text-decoration: none;
     color: var(--text-light);
 }
@@ -82,8 +84,8 @@ nav li a:hover{
 
 }
 
-.dropdown-menu a{
-    display: block;      
+.dropdown-menu a {
+    display: block;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -110,12 +112,14 @@ nav li a:hover{
     }
 
     .mobile-menu-toggle {
-        display: block; /* Exibido em telas menores */
+        display: block;
+        /* Exibido em telas menores */
         margin-top: 10px;
     }
 
     .dropdown:hover .dropdown-menu {
-        display: none; /* Esconde o menu dropdown no modo móvel */
+        display: none;
+        /* Esconde o menu dropdown no modo móvel */
     }
 
     .dropdown.active .dropdown-menu {

@@ -7,40 +7,24 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" >
-    
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles/menu.css">
+    <script src="main.js" defer></script>
     <title>Setup Ideal</title>
 </head>
 
 <body>
-    <div id="menu"></div>
-    <script>
-        //JavaScript para carregar o menu na página
-        fetch('../menu/menu.html')
-          .then(response => response.text())
-          .then(html => {
-            document.getElementById('menu').innerHTML = html;
-          });
-      </script>
-
- 
+    <header id="header"></header>
     <main>
         <section>
             <div class="text-wrapper">
                 <h1>Computador Ideal</h1>
                 <h2>Monte seu computador com peças compativeis <br>E sugestões de preços nas lojas do Brasil </h2>
-                <a href="montagem/index.html">Iniciar Montagem</a>
+                <a href="/pages/montagem/index.html">Iniciar Montagem</a>
             </div>
-
             <img src="public/assets/figure.png" alt="">
         </section>
     </main>
-
-    
-
 </body>
 
 </html>

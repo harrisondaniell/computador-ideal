@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Adicione logs para verificar se os elementos foram pegos corretamente
-    console.log("Linhas da tabela:", document.querySelectorAll('.table__body tbody tr'));
+    // console.log("Linhas da tabela:", document.querySelectorAll('.table__body tbody tr'));
 });
 
 // Função para criar um elemento de linha com base em uma escolha
